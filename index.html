@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<title>DashWorld</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%236c4cff'/%3E%3Cpath d='M22 14h12a18 18 0 0 1 0 36H22z' fill='%23fff'/%3E%3Cpath d='M30 22h4a10 10 0 0 1 0 20h-4z' fill='%236c4cff'/%3E%3C/svg%3E">
+<title>DashWorld 20</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22dwg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%239b6bff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%232f80ff%22%2F%3E%3C%2FlinearGradient%3E%3CradialGradient%20id%3D%22dwp%22%20cx%3D%22.35%22%20cy%3D%22.3%22%20r%3D%22.9%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%238fe3ff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231769e0%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22url%28%23dwg%29%22%2F%3E%3Cg%20fill%3D%22%23fff%22%3E%3Crect%20x%3D%224%22%20y%3D%2222%22%20width%3D%2214%22%20height%3D%224%22%20rx%3D%222%22%20opacity%3D%22.55%22%2F%3E%3Crect%20x%3D%222%22%20y%3D%2230%22%20width%3D%2218%22%20height%3D%224%22%20rx%3D%222%22%20opacity%3D%22.9%22%2F%3E%3Crect%20x%3D%227%22%20y%3D%2238%22%20width%3D%2212%22%20height%3D%224%22%20rx%3D%222%22%20opacity%3D%22.55%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M23%2012h12a20%2020%200%200%201%200%2040H23z%22%20fill%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2236%22%20cy%3D%2232%22%20r%3D%2211%22%20fill%3D%22url%28%23dwp%29%22%2F%3E%3Cpath%20d%3D%22M30%2027c3-3%207-2%208%201s-3%203-3%206-4%204-6%201zM41%2034c2-1%204%200%204%202s-2%203-4%202z%22%20fill%3D%22%236fd36f%22%2F%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%2229%22%20ry%3D%228.5%22%20transform%3D%22rotate%28-28%2032%2032%29%22%20fill%3D%22none%22%20stroke%3D%22%23ffd54f%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22%20stroke-dasharray%3D%2250%2014%22%2F%3E%3Ccircle%20cx%3D%2256.5%22%20cy%3D%2219%22%20r%3D%223.3%22%20fill%3D%22%23ffd54f%22%2F%3E%3C%2Fsvg%3E">
 <style>
 :root{--bg:#f2f4fb;--fg:#1a1d29;--card:#fff;--ac:#6c4cff;--ac2:#4f6bff;--bd:#dde1f0;--dim:#6b7186;--ok:#2e9e5b;--bad:#e5484d;--sh:0 4px 18px rgba(30,30,80,.08);--r:14px}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f111a;--fg:#eceef8;--card:#1a1e2e;--bd:#2c3250;--dim:#98a0bd;--sh:0 4px 18px rgba(0,0,0,.35)}}
@@ -23,7 +23,8 @@ h1,h2,h3{margin:.2em 0}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:16px;box-shadow:var(--sh)}
 .wrap{max-width:1040px;margin:0 auto;padding:16px;padding-bottom:70px}
 #auth{max-width:400px;margin:8vh auto 0;padding:16px}
-.logo{display:flex;align-items:center;gap:10px;font-size:26px;font-weight:800}
+.logo{display:flex;align-items:center;gap:10px;font-size:26px;font-weight:800}.lmark{display:inline-flex;filter:drop-shadow(0 3px 8px rgba(80,90,255,.45))}
+.v20{position:relative;display:inline-block;font-weight:900;font-style:italic;font-size:1.9em;line-height:.7;margin-left:-2px;transform:rotate(-7deg) translateY(-3px);color:#ff1a2e;letter-spacing:-.05em;text-shadow:0 2px 0 #8a0014,0 4px 0 rgba(90,0,12,.5),0 0 14px rgba(255,26,46,.5)}.v20::after{content:'✦';position:absolute;right:-.42em;top:-.28em;font-size:.34em;font-style:normal;color:#ffd54f;text-shadow:0 0 8px #ffd54f;animation:tw 1.6s ease-in-out infinite}@keyframes tw{50%{transform:scale(.4) rotate(40deg);opacity:.5}}
 .err{color:var(--bad);min-height:22px;font-size:14px}
 /* top bar & tabs */
 .top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
@@ -66,7 +67,7 @@ table{width:100%;border-collapse:collapse}td,th{padding:6px 8px;text-align:left;
 #load{position:fixed;inset:0;z-index:300;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:24px;transition:opacity .4s}
 #load .bar{width:min(300px,80vw);height:8px;border-radius:6px;background:var(--bd);overflow:hidden}#load i{display:block;height:100%;width:0;background:var(--ac);transition:width .3s}
 #snow{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
-#snow i{position:absolute;top:-14px;color:#9cc8ff;font-style:normal;animation:fall linear infinite;opacity:.8}@keyframes fall{to{transform:translateY(106vh) rotate(360deg)}}
+#snow i{position:absolute;top:-20px;display:block;opacity:.92;animation:conf linear infinite;will-change:transform}@keyframes conf{0%{transform:translate3d(0,-8vh,0) rotate(0)}100%{transform:translate3d(var(--dx,0),108vh,0) rotate(var(--rot,720deg))}}
 /* game */
 #game{position:fixed;inset:0;background:#000;display:none;z-index:50;touch-action:none;user-select:none;-webkit-user-select:none}
 #cv{width:100%;height:100%;display:block;touch-action:none}
@@ -108,7 +109,7 @@ textarea.code,pre.code{width:100%;height:320px;font:13px/1.45 ui-monospace,Menlo
 @media(max-width:600px){.wrap{padding:10px}.grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}.gthumb{height:90px}}
 </style></head>
 <body>
-<div id="load"><div class="logo"><svg viewBox="0 0 64 64" width="56" height="56"><rect width="64" height="64" rx="16" fill="#6c4cff"/><path d="M22 14h12a18 18 0 0 1 0 36H22z" fill="#fff"/><path d="M30 22h4a10 10 0 0 1 0 20h-4z" fill="#6c4cff"/><rect x="6" y="22" width="12" height="4" rx="2" fill="#fff" opacity=".85"/><rect x="2" y="30" width="16" height="4" rx="2" fill="#fff" opacity=".85"/><rect x="8" y="38" width="10" height="4" rx="2" fill="#fff" opacity=".85"/></svg> DashWorld</div><div class="bar"><i id="loadbar"></i></div><div class="dim" id="loadmsg">Loading engine…</div></div>
+<div id="load"><div class="logo"><svg viewBox="0 0 64 64" width="56" height="56" role="img" aria-label="DashWorld"><defs><linearGradient id="dwg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#2f80ff"/></linearGradient><radialGradient id="dwp" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#8fe3ff"/><stop offset="1" stop-color="#1769e0"/></radialGradient></defs><rect width="64" height="64" rx="16" fill="url(#dwg)"/><g fill="#fff"><rect x="4" y="22" width="14" height="4" rx="2" opacity=".55"/><rect x="2" y="30" width="18" height="4" rx="2" opacity=".9"/><rect x="7" y="38" width="12" height="4" rx="2" opacity=".55"/></g><path d="M23 12h12a20 20 0 0 1 0 40H23z" fill="#fff"/><circle cx="36" cy="32" r="11" fill="url(#dwp)"/><path d="M30 27c3-3 7-2 8 1s-3 3-3 6-4 4-6 1zM41 34c2-1 4 0 4 2s-2 3-4 2z" fill="#6fd36f"/><ellipse cx="32" cy="32" rx="29" ry="8.5" transform="rotate(-28 32 32)" fill="none" stroke="#ffd54f" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="50 14"/><circle cx="56.5" cy="19" r="3.3" fill="#ffd54f"/></svg> DashWorld<span class="v20">20</span></div><div class="bar"><i id="loadbar"></i></div><div class="dim" id="loadmsg">Loading engine…</div></div>
 <div id="snow" aria-hidden="true"></div>
 <div id="auth" style="display:none"></div>
 <div id="lobby" class="wrap" style="display:none"></div>
@@ -1343,6 +1344,8 @@ const Backend = {
   async toggleLike(g) { const u = Auth.user.name, l = g.likes || (g.likes = []), i = l.indexOf(u); i >= 0 ? l.splice(i, 1) : l.push(u); const a = Store.get('games', []), x = a.find(y => y.id === g.id); if (x) { x.likes = l; Store.set('games', a); } if (g.by === u) return Backend.saveGame(g); Cloud.rpcQ('game_like', { gid: g.id }); },
 };
 
+const LOGO_SVG = px => `<svg viewBox="0 0 64 64" width="${px}" height="${px}" role="img" aria-label="DashWorld"><defs><linearGradient id="dwg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b6bff"/><stop offset="1" stop-color="#2f80ff"/></linearGradient><radialGradient id="dwp" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#8fe3ff"/><stop offset="1" stop-color="#1769e0"/></radialGradient></defs><rect width="64" height="64" rx="16" fill="url(#dwg)"/><g fill="#fff"><rect x="4" y="22" width="14" height="4" rx="2" opacity=".55"/><rect x="2" y="30" width="18" height="4" rx="2" opacity=".9"/><rect x="7" y="38" width="12" height="4" rx="2" opacity=".55"/></g><path d="M23 12h12a20 20 0 0 1 0 40H23z" fill="#fff"/><circle cx="36" cy="32" r="11" fill="url(#dwp)"/><path d="M30 27c3-3 7-2 8 1s-3 3-3 6-4 4-6 1zM41 34c2-1 4 0 4 2s-2 3-4 2z" fill="#6fd36f"/><ellipse cx="32" cy="32" rx="29" ry="8.5" transform="rotate(-28 32 32)" fill="none" stroke="#ffd54f" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="50 14"/><circle cx="56.5" cy="19" r="3.3" fill="#ffd54f"/></svg>`;
+const logoMark = px => { const s = document.createElement('span'); s.className = 'lmark'; s.innerHTML = LOGO_SVG(px); return s; };
 /* ---------- settings ---------- */
 const Settings = Object.assign({ quality: 2, vol: .7, music: true, musVol: .4, sens: 1, theme: 'system', camCol: true, tags: true, festive: true, fps: false, fov: 70, invertY: false, touch: 'auto', shake: true }, Store.get('settings', {}));
 if (!Store.get('musicV2', 0)) { Settings.music = true; Store.set('musicV2', 1); Store.set('settings', Object.assign({}, Settings)); }
@@ -1483,23 +1486,42 @@ document.addEventListener('pointerdown', () => Snd.init(), { once: true });
 
 /* ---------- tab-to-tab multiplayer (BroadcastChannel) — swap for a websocket relay when a backend exists ---------- */
 const Net = {
-  id: uid(), ch: null, room: null, peers: new Map(), onChat: null, onJoin: null, onLeave: null, getState: null, timer: 0,
-  join(room, getState) {
-    this.leave(); if (!window.BroadcastChannel) return; this.room = room; this.getState = getState;
-    this.ch = new BroadcastChannel('dw2-' + room);
-    this.ch.onmessage = e => {
-      const m = e.data; if (!m || m.id === this.id) return;
-      if (m.k === 's') { const fresh = !this.peers.has(m.id); const p = this.peers.get(m.id) || {}; Object.assign(p, m.s, { id: m.id, seen: performance.now() }); this.peers.set(m.id, p); if (fresh && this.onJoin) this.onJoin(p); }
-      else if (m.k === 'c') { if (this.onChat) this.onChat(m.n, m.t, m.id); }
-      else if (m.k === 'b') { const p = this.peers.get(m.id); if (this.peers.delete(m.id) && this.onLeave) this.onLeave(p); }
-    };
-    this.timer = setInterval(() => {
-      if (this.getState) this.ch.postMessage({ k: 's', id: this.id, s: this.getState() });
-      const now = performance.now(); for (const [id, p] of this.peers) if (now - p.seen > 3000) { this.peers.delete(id); if (this.onLeave) this.onLeave(p); }
-    }, 100);
+  id: uid(), ch: null, room: null, peers: new Map(), onChat: null, onJoin: null, onLeave: null, getState: null, timer: 0, online: false, lastJ: '', lastT: 0, lastAv: -1e9,
+  /** one incoming message from another player (same format whether it came over the internet or from another tab) */
+  recv(m) {
+    if (!m || typeof m !== 'object' || m.id === this.id) return;
+    if (m.k === 's' && m.s && typeof m.s === 'object') {
+      const s = m.s, fresh = !this.peers.has(m.id), p = this.peers.get(m.id) || {}, num = v => typeof v === 'number' && isFinite(v) && Math.abs(v) < 1e6;
+      if (typeof s.n === 'string') p.n = s.n.replace(/[<>]/g, '').slice(0, 20); for (const k of ['x', 'y', 'z', 'r']) if (num(s[k])) p[k] = s[k];
+      for (const k of ['mv', 'air', 'sit']) if (k in s) p[k] = s[k] ? 1 : 0; if ('em' in s) p.em = String(s.em || '').slice(0, 20); if ('w' in s) p.w = String(s.w || '').slice(0, 12);
+      if (s.av && typeof s.av === 'object') p.av = s.av;
+      p.id = m.id; p.seen = performance.now(); this.peers.set(m.id, p);
+      if (fresh) { this.lastAv = -1e9; this.lastJ = ''; if (this.onJoin && p.n) this.onJoin(p); } // newcomers get our full look straight away
+    }
+    else if (m.k === 'c' && typeof m.t === 'string') { if (this.onChat) this.onChat(String(m.n || '?').slice(0, 20), m.t.slice(0, 160), m.id); }
+    else if (m.k === 'b') { const p = this.peers.get(m.id); if (this.peers.delete(m.id) && this.onLeave) this.onLeave(p); }
   },
-  chat(n, t) { if (this.ch) this.ch.postMessage({ k: 'c', id: this.id, n, t }); },
-  leave() { if (this.ch) { try { this.ch.postMessage({ k: 'b', id: this.id }); this.ch.close(); } catch (e) {} } clearInterval(this.timer); this.ch = null; this.peers.clear(); this.room = null; },
+  post(m) { if (this.online) { if (this.rt) this.rt.send('m', m); } else if (this.ch) this.ch.postMessage(m); },
+  join(room, getState) {
+    this.leave(); this.room = room; this.getState = getState; this.lastJ = ''; this.lastT = 0; this.lastAv = -1e9;
+    if (Cloud.on && typeof WebSocket !== 'undefined') { this.online = true; this.rt = Rt.join('dw-room-' + room, (ev, pl) => { if (ev === 'm') this.recv(pl); }); }
+    else if (window.BroadcastChannel) { this.online = false; this.ch = new BroadcastChannel('dw2-' + room); this.ch.onmessage = e => this.recv(e.data); }
+    else return;
+    const every = this.online ? 130 : 100, life = this.online ? 6000 : 3000;
+    this.timer = setInterval(() => {
+      if (this.getState && !(this.online && !(this.rt && this.rt.ready))) {
+        const full = this.getState(), now = performance.now(), sendAv = !this.online || now - this.lastAv > 3500, s = Object.assign({}, full);
+        if (!sendAv) delete s.av; else this.lastAv = now;
+        for (const k of ['x', 'y', 'z']) s[k] = Math.round(s[k] * 10) / 10; s.r = Math.round(s.r * 100) / 100;
+        const key = JSON.stringify(Object.assign({}, s, { av: 0 }));
+        // online: standing still only needs an occasional heartbeat, moving sends ~8 times a second
+        if (!this.online || key !== this.lastJ || sendAv || now - this.lastT > 1000) { this.lastJ = key; this.lastT = now; this.post({ k: 's', id: this.id, s }); }
+      }
+      const now = performance.now(); for (const [id, p] of this.peers) if (now - p.seen > life) { this.peers.delete(id); if (this.onLeave) this.onLeave(p); }
+    }, every);
+  },
+  chat(n, t) { this.post({ k: 'c', id: this.id, n, t }); },
+  leave() { try { this.post({ k: 'b', id: this.id }); } catch (e) {} if (this.ch) { try { this.ch.close(); } catch (e) {} } if (this.rt) { try { this.rt.leave(); } catch (e) {} } clearInterval(this.timer); this.ch = null; this.rt = null; this.online = false; this.peers.clear(); this.room = null; },
 };
 
 // browsers only allow audio after a click/key: start the tune on the first one
@@ -1678,6 +1700,44 @@ const Cloud = (() => {
     else if (k === 'ugc') C.pushList('ugc', v);
   };
   return C;
+})();
+
+/* ---------- realtime: live rooms over Supabase Realtime "broadcast" (phoenix websocket, no library needed) ---------- */
+const Rt = (() => {
+  const R = { ws: null, open: false, topics: new Map(), ref: 0, hb: 0, retry: 0, idle: 0 };
+  const raw = o => { try { if (R.ws && R.open) R.ws.send(JSON.stringify(o)); } catch (e) {} };
+  const sendJoin = t => raw({ topic: t.key, event: 'phx_join', payload: { config: { broadcast: { self: false, ack: false }, presence: { key: '' }, private: false } }, ref: String(++R.ref), join_ref: String(R.ref) });
+  R.connect = () => {
+    if (R.ws || !Cloud.on || typeof WebSocket === 'undefined') return; clearTimeout(R.idle);
+    let ws; try { ws = new WebSocket(Cloud.url.replace(/^http/, 'ws') + '/realtime/v1/websocket?apikey=' + encodeURIComponent(CLOUD_CFG.key) + '&vsn=1.0.0'); } catch (e) { return; } R.ws = ws;
+    ws.onopen = () => { R.open = true; R.retry = 0; for (const t of R.topics.values()) sendJoin(t); clearInterval(R.hb); R.hb = setInterval(() => raw({ topic: 'phoenix', event: 'heartbeat', payload: {}, ref: String(++R.ref) }), 25000); };
+    ws.onmessage = ev => {
+      let m; try { m = JSON.parse(ev.data); } catch (e) { return; } const t = R.topics.get(m.topic); if (!t) return;
+      if (m.event === 'broadcast' && m.payload) { for (const x of t.hs) { try { x.on(m.payload.event, m.payload.payload); } catch (e) {} } }
+      else if (m.event === 'phx_reply' && m.payload) { if (m.payload.status === 'ok') { if (!t.joined) { t.joined = true; for (const x of t.hs) x.onJoined && x.onJoined(); } } else t.joined = false; }
+      else if (m.event === 'phx_error' || m.event === 'phx_close') t.joined = false;
+    };
+    ws.onclose = () => { R.open = false; R.ws = null; clearInterval(R.hb); for (const t of R.topics.values()) t.joined = false; if (R.topics.size) setTimeout(R.connect, Math.min(15000, 800 * 2 ** R.retry++)); };
+    ws.onerror = () => {};
+  };
+  /** join a room; returns { send(event, payload), leave() } — messages from other people arrive in on(event, payload) */
+  R.join = (name, on, onJoined) => {
+    const key = 'realtime:' + name, me = { on, onJoined }; let t = R.topics.get(key);
+    if (!t) { t = { name, key, hs: new Set(), joined: false }; R.topics.set(key, t); }
+    t.hs.add(me); if (t.joined) { if (onJoined) setTimeout(onJoined, 0); } else if (R.open) { if (t.hs.size === 1) sendJoin(t); } else R.connect();
+    return {
+      get ready() { return t.joined; },
+      send(event, payload) { if (t.joined) raw({ topic: key, event: 'broadcast', payload: { type: 'broadcast', event, payload }, ref: String(++R.ref) }); },
+      leave() { t.hs.delete(me); if (t.hs.size) return; raw({ topic: key, event: 'phx_leave', payload: {}, ref: String(++R.ref) }); if (R.topics.get(key) === t) R.topics.delete(key); if (!R.topics.size) R.idle = setTimeout(() => { if (!R.topics.size && R.ws) { try { R.ws.close(); } catch (e) {} } }, 20000); },
+    };
+  };
+  /** BroadcastChannel-shaped wrapper so older code (lobby chat, presence) works unchanged */
+  R.chan = name => {
+    const ch = { onmessage: null, postMessage() {}, close() { j.leave(); } };
+    const j = R.join('dw-' + name, (ev, pl) => { if (ev === 'm' && ch.onmessage) ch.onmessage({ data: pl }); });
+    return { set onmessage(f) { ch.onmessage = f; }, postMessage: m => j.send('m', m), close: () => j.leave() };
+  };
+  return R;
 })();
 /* ===== play.js — the game runtime (play + studio test) ===== */
 const Play = (() => {
@@ -2060,10 +2120,11 @@ const Play = (() => {
   function dropPeer(id) { const p = S && S.peers.get(id); if (p && p.m) S.scene.remove(p.m); if (S) S.peers.delete(id); hud(); }
   function syncPeers(dt) {
     for (const [id, np] of Net.peers) {
+      if (!np.av || np.x == null) continue; // wait until we know what they look like
       let p = S.peers.get(id);
       if (!p) { p = { n: np.n }; S.peers.set(id, p); hud(); }
       const avs = JSON.stringify(np.av); if (p.avs !== avs) { if (p.m) S.scene.remove(p.m); p.m = Gfx.makeChar(fullAv(np.av, np.n), np.n); S.scene.add(p.m); p.avs = avs; p.m.position.set(np.x, np.y, np.z); }
-      const k = 1 - Math.exp(-dt * 14); p.m.position.x += (np.x - p.m.position.x) * k; p.m.position.y += (np.y - p.m.position.y) * k; p.m.position.z += (np.z - p.m.position.z) * k;
+      const k = 1 - Math.exp(-dt * (Net.online ? 9 : 14)); p.m.position.x += (np.x - p.m.position.x) * k; p.m.position.y += (np.y - p.m.position.y) * k; p.m.position.z += (np.z - p.m.position.z) * k;
       let dr = np.r - p.m.rotation.y; dr = Math.atan2(Math.sin(dr), Math.cos(dr)); p.m.rotation.y += dr * k; p.m.userData.tag.visible = Settings.tags;
       Gfx.pose(p.m, { moving: np.mv, air: np.air, sit: np.sit, emote: np.em || null }, S.t);
     }
@@ -2690,19 +2751,20 @@ time() = seconds since start
 })();
 
 /* ---- social.js ---- */
-/* ===== social.js — Search, Chat, Online (local-first; tabs on this device sync live) ===== */
+/* ===== social.js — Search, Chat, Online (live over the internet via the DashWorld servers) ===== */
 const Social = (() => {
   const S = { ctx: {} }, ago = t => { const s = (Date.now() - t) / 1000; return s < 60 ? 'just now' : s < 3600 ? Math.floor(s / 60) + 'm ago' : s < 86400 ? Math.floor(s / 3600) + 'h ago' : new Date(t).toLocaleDateString(); };
   const me = () => Auth.user.name, clean = t => String(t || '').replace(/[<>]/g, '').trim();
-  const chan = n => window.BroadcastChannel ? new BroadcastChannel(n) : null;
+  const chan = n => Cloud.on && typeof WebSocket !== 'undefined' ? Rt.chan(n) : window.BroadcastChannel ? new BroadcastChannel(n) : null;
   /* presence */
   const online = new Map(); let pres = null, hb = 0, sid = uid();
   S.isOn = n => n === (Auth.user && Auth.user.name) || [...online.values()].some(o => o.n === n);
-  S.init = () => {
-    if (pres || !window.BroadcastChannel) return; pres = chan('dw2-presence');
+  let started = 0;
+  S.init = async () => {
+    if (started) return; started = 1; try { await Cloud.init(); } catch (e) {} pres = chan('dw2-presence'); if (!pres) return; const on = Cloud.on, ttl = on ? 14000 : 6000;
     pres.onmessage = e => { const m = e.data; if (m && m.sid !== sid) { if (m.bye) online.delete(m.sid); else online.set(m.sid, Object.assign(m, { seen: Date.now() })); } };
-    const beat = () => { if (!Auth.user) return; pres.postMessage({ sid, n: Auth.user.guest ? 'Guest' : Auth.user.name, at: window.__playing || '', av: Auth.user.av }); const now = Date.now(); for (const [k, v] of online) if (now - v.seen > 6000) online.delete(k); };
-    hb = setInterval(beat, 2000); beat(); addEventListener('beforeunload', () => pres.postMessage({ sid, bye: 1 }));
+    const beat = () => { if (!Auth.user) return; pres.postMessage({ sid, n: Auth.user.guest ? 'Guest' : Auth.user.name, at: window.__playing || '' }); const now = Date.now(); for (const [k, v] of online) if (now - v.seen > ttl) online.delete(k); };
+    hb = setInterval(beat, on ? 5000 : 2000); setTimeout(beat, on ? 1500 : 0); beat(); addEventListener('beforeunload', () => pres.postMessage({ sid, bye: 1 }));
   };
   /* search */
   S.search = async b => {
@@ -2731,7 +2793,7 @@ const Social = (() => {
     hist.forEach(add); const ch = chan('dw2-lobbychat'); if (ch) ch.onmessage = e => { if (!box.isConnected) { ch.close(); return; } add(e.data); };
     const send = () => { const t = clean(inp.value); if (!t) return; const m = { n: me(), t: t.slice(0, 160), at: Date.now() }; hist.push(m); Store.set('chat', hist.slice(-100)); add(m); ch && ch.postMessage(m); inp.value = ''; };
     inp.onkeydown = e => { if (e.key === 'Enter') send(); };
-    b.append(h('div', { class: 'dim', style: 'margin-bottom:8px' }, 'Global lobby chat. Open DashWorld in another tab to chat live between tabs. Be kind!'), box, h('div', { class: 'row' }, inp, h('button', { class: 'btn', onclick: send }, 'Send')));
+    b.append(h('div', { class: 'dim', style: 'margin-bottom:8px' }, 'Global lobby chat — live between everyone online. Be kind!'), box, h('div', { class: 'row' }, inp, h('button', { class: 'btn', onclick: send }, 'Send')));
     if (!hist.length) box.append(h('div', { class: 'dim' }, 'No messages yet — say hi!'));
   };
   /* online */
@@ -2739,7 +2801,7 @@ const Social = (() => {
     S.init(); const box = h('div'), draw = () => {
       if (!box.isConnected) return clearInterval(t); box.textContent = ''; const L = [{ n: me(), at: window.__playing || '', self: 1 }].concat([...online.values()]);
       box.append(h('div', null, h('h3', null, 'Online now (' + L.length + ')'), L.map(o => h('div', { class: 'card row' }, h('b', null, '👤 ' + o.n + (o.self ? ' (you)' : '')), h('span', { class: 'sp dim' }, o.at ? '▶ ' + o.at : 'In the lobby')))));
-    }, t = setInterval(draw, 1500); b.append(h('div', { class: 'dim' }, 'Players with DashWorld open on this device/browser. Real internet presence arrives with the online backend.'), box); draw();
+    }, t = setInterval(draw, 1500); b.append(h('div', { class: 'dim' }, 'Everyone with DashWorld open right now, anywhere in the world.'), box); draw();
   };
   return S;
 })();
@@ -2873,7 +2935,7 @@ const Lobby = (() => {
     if (prev) { prev.dispose(); prev = null; }
     const root = $('#lobby'); root.style.display = 'block'; root.textContent = ''; $('#snow').style.display = Settings.festive ? '' : 'none';
     const u = Auth.user;
-    root.append(h('div', { class: 'top' }, h('div', { class: 'logo' }, h('span', { style: 'font-size:30px' }, '🏃'), 'DashWorld'), h('span', { class: 'sp' }),
+    root.append(h('div', { class: 'top' }, h('div', { class: 'logo' }, logoMark(36), 'DashWorld', h('span', { class: 'v20' }, '20')), h('span', { class: 'sp' }),
       h('button', { class: 'btn ghost small musbtn', title: 'Music on / off (M)', onclick: () => Snd.toggleMusic() }, Settings.music ? '🎵' : '🔇'), h('span', { class: 'pill', title: 'Dash Bucks' }, '💵 ' + fmt(u.bucks)), h('span', { class: 'pill' }, u.guest ? '👤 Guest' : '👤 ' + u.name), h('button', { class: 'btn ghost small', onclick: () => { Auth.logout(); Snd.stopMusic(); boot(); } }, u.guest ? 'Sign in' : 'Log out')),
       h('div', { class: 'tabs' }, TABS.map(([id, label]) => h('button', { class: tab === id ? 'on' : '', onclick: () => show(id) }, label))));
     root.append(...adRails()); const body = h('div', { id: 'tab' }); root.append(body);
@@ -3008,7 +3070,7 @@ const Lobby = (() => {
       const sel = (k, opts, num) => h('select', { onchange: e => { S[k] = num ? +e.target.value : e.target.value; S.save(); if (k === 'theme') applyTheme(); } }, opts.map(([v, n]) => h('option', { value: v, selected: String(S[k]) === String(v) }, n)));
       const chk = (k, fn) => h('input', { type: 'checkbox', checked: !!S[k], onchange: e => { S[k] = e.target.checked; S.save(); if (fn) fn(); } });
       const rng2 = (k, mn, mx, st, fn, sc = 1, unit = '') => numSlider('', () => Math.round(S[k] * sc * 100) / 100, v => { S[k] = v / sc; S.save(); if (fn) fn(); }, mn, mx, st, { unit });
-      b.append(h('div', { class: 'card' }, h('h3', null, 'Graphics'), row('Quality', sel('quality', [[0, 'Low — fastest'], [1, 'Medium'], [2, 'High — shadows']], 1), 'Applies the next time you enter a game'), row('Field of view', rng2('fov', 50, 100, 1, null, 1, '°')), row('Show FPS', chk('fps')), row('Camera collision', chk('camCol'), 'Stops walls blocking your view'), row('Player name tags', chk('tags')), row('Dash camera kick', chk('shake')), row('Festive snow in menus', chk('festive', () => { $('#snow').style.display = S.festive ? '' : 'none'; }))),
+      b.append(h('div', { class: 'card' }, h('h3', null, 'Graphics'), row('Quality', sel('quality', [[0, 'Low — fastest'], [1, 'Medium'], [2, 'High — shadows']], 1), 'Applies the next time you enter a game'), row('Field of view', rng2('fov', 50, 100, 1, null, 1, '°')), row('Show FPS', chk('fps')), row('Camera collision', chk('camCol'), 'Stops walls blocking your view'), row('Player name tags', chk('tags')), row('Dash camera kick', chk('shake')), row('Confetti in menus', chk('festive', () => { $('#snow').style.display = S.festive ? '' : 'none'; }))),
         h('div', { class: 'card', style: 'margin-top:12px' }, h('h3', null, 'Audio & controls'), row('Volume', rng2('vol', 0, 100, 5, () => Snd.vol(), 100, '%')), row('Music', chk('music', () => { Snd.setMusic(S.music); })), row('Music volume', rng2('musVol', 0, 100, 5, null, 100, '%')), row('Mouse sensitivity', rng2('sens', .3, 3, .1, null, 1, '×')), row('Invert camera Y', chk('invertY')), row('Roblox shift-lock key (Shift toggles lock, dash moves to X)', chk('shiftKeyLock')), row('Touch controls', sel('touch', [['auto', 'Auto'], ['on', 'Always on'], ['off', 'Off']])), row('Theme', sel('theme', [['system', 'System'], ['light', 'Light'], ['dark', 'Dark']]))),
         h('div', { class: 'card', style: 'margin-top:12px' }, h('h3', null, 'Your data'), h('p', { class: 'dim' }, 'Storage: ' + Backend.name + (Cloud.ses ? '. Your account, games and items are saved online. The export below is an extra backup.' : '. Everything lives in this browser — back it up regularly, especially before clearing site data.')),
           h('div', { class: 'row' }, h('button', { class: 'btn', onclick: exportAll }, '⬇ Export backup'), h('button', { class: 'btn ghost', onclick: importAll }, '⬆ Import backup'), h('button', { class: 'btn danger', onclick: async () => { if (await confirmBox('Erase ALL DashWorld data on this device (accounts, games, settings)?', 'Erase everything')) { Object.keys(localStorage).filter(k => k.startsWith(Store.P)).forEach(k => localStorage.removeItem(k)); location.reload(); } } }, 'Erase everything'))),
@@ -3072,17 +3134,25 @@ function faceEditor(av, done) {
     h('div', { class: 'row', style: 'margin-top:12px' }, h('button', { class: 'btn', onclick: () => { av.face = -1; av.fi = cv.toDataURL('image/png'); m.close(); done(); } }, 'Save face'), h('button', { class: 'btn ghost', title: 'Keep this face as an item you can sell in the shop', onclick: async () => { const url = cv.toDataURL('image/png'); m.close(); const nm = await askText('Name your face', 'My face', 'Save'); if (!nm) return; const all = Store.get('ugc', []), id = 'u' + uid(); all.push({ id, name: nm.slice(0, 24), slot: 'face', blocks: [], img: url, by: Auth.user.name, at: Date.now(), pub: null }); Store.set('ugc', all); Lobby.ugcLoad(); av.face = -1; av.fi = url; av.fid = id; done(); toast('Saved to 🧩 My items — you can sell it in the shop'); } }, '🛍 Save as item'), h('button', { class: 'btn ghost', onclick: () => { if (hist.length) { cx.putImageData(hist.pop(), 0, 0); refresh(); } } }, '↶ Undo'), h('button', { class: 'btn ghost', onclick: () => { snapshot(); cx.clearRect(0, 0, S, S); refresh(); } }, 'Clear'), h('button', { class: 'btn ghost', onclick: () => m.close() }, 'Cancel'))), { sticky: true, wide: true });
   refresh();
 }
-function snow() { const b = $('#snow'); for (let i = 0; i < 26; i++) { const f = h('i', { style: `left:${Math.random() * 100}%;font-size:${8 + Math.random() * 14}px;animation-duration:${7 + Math.random() * 10}s;animation-delay:${Math.random() * 9}s` }, ['❄', '❅', '✦'][i % 3]); b.append(f); } }
+function confetti(n = 64, burst) {
+  const b = $('#snow'), cols = ['#ff3d5a', '#ffca28', '#42a5f5', '#66bb6a', '#ab47bc', '#ff7043', '#26c6da', '#ffffff'];
+  for (let i = 0; i < n; i++) {
+    const w = 6 + Math.random() * 6, shape = Math.random(), dur = burst ? 2.6 + Math.random() * 2.4 : 6 + Math.random() * 7;
+    const st = `left:${Math.random() * 100}%;width:${w}px;height:${shape < .3 ? w : w * (1.3 + Math.random())}px;background:${cols[i % cols.length]};border-radius:${shape < .3 ? '50%' : '2px'};--dx:${(Math.random() - .5) * 160}px;--rot:${(Math.random() < .5 ? -1 : 1) * (420 + Math.random() * 900)}deg;animation-duration:${dur}s;animation-delay:${burst ? Math.random() * .7 : -Math.random() * dur}s`;
+    const f = h('i', { style: st }); b.append(f); if (burst) setTimeout(() => f.remove(), (dur + 1) * 1000);
+  }
+}
+window.confettiBurst = () => { if (Settings.festive) confetti(110, true); };
 function boot() {
   Lobby.ugcLoad();
   $('#load').style.display = 'none'; $('#lobby').style.display = 'none';
   Cloud.init(); Cloud.after.push(() => { try { Lobby.ugcLoad(); } catch (e) {} });
-  if (Auth.restore()) { $('#auth').style.display = 'none'; Lobby.show('games'); return; }
+  if (Auth.restore()) { $('#auth').style.display = 'none'; Lobby.show('games'); setTimeout(() => window.confettiBurst(), 400); return; }
   const a = $('#auth'); a.style.display = 'block'; a.textContent = '';
   const u = h('input', { placeholder: 'Username', autocomplete: 'username', maxlength: 16, style: 'width:100%' }), p = h('input', { type: 'password', placeholder: 'Password', autocomplete: 'current-password', style: 'width:100%' }), err = h('div', { class: 'err' });
-  const go = async (fn) => { err.textContent = ''; try { await fn(); a.style.display = 'none'; Lobby.show('games'); } catch (e) { err.textContent = e.message; } };
+  const go = async (fn) => { err.textContent = ''; try { await fn(); a.style.display = 'none'; Lobby.show('games'); window.confettiBurst(); } catch (e) { err.textContent = e.message; } };
   p.onkeydown = u.onkeydown = e => { if (e.key === 'Enter') go(() => Auth.login(u.value, p.value)); };
-  a.append(h('div', { class: 'logo', style: 'justify-content:center;margin-bottom:6px' }, h('span', { style: 'font-size:38px' }, '🏃'), 'DashWorld'), h('p', { class: 'dim', style: 'text-align:center' }, 'Play, build and share worlds.'),
+  a.append(h('div', { class: 'logo', style: 'justify-content:center;margin-bottom:6px' }, logoMark(48), 'DashWorld', h('span', { class: 'v20' }, '20')), h('p', { class: 'dim', style: 'text-align:center' }, 'Play, build and share worlds.'),
     h('div', { class: 'card col' }, u, p, err, h('div', { class: 'row' }, h('button', { class: 'btn', onclick: () => go(() => Auth.login(u.value, p.value)) }, 'Log in'), h('button', { class: 'btn ghost', onclick: () => go(() => Auth.register(u.value, p.value)) }, 'Create account')),
       h('button', { class: 'btn ghost', onclick: () => go(async () => Auth.guest()) }, '👤 Play as guest')),
     (() => { const n = h('p', { class: 'dim', style: 'text-align:center;font-size:12px;margin-top:12px' }, 'Connecting to the DashWorld servers…'); Cloud.init().then(on => { n.textContent = on ? '🌐 Accounts live on the official DashWorld servers — log in from any device.' : '⚠️ The DashWorld servers are not reachable, so accounts are stored on this device only.'; }); return n; })());
@@ -3090,7 +3160,7 @@ function boot() {
 Lobby.boot = boot;
 
 (function start() {
-  applyTheme(); snow(); const bar = $('#loadbar'), msg = $('#loadmsg');
+  applyTheme(); confetti(); const bar = $('#loadbar'), msg = $('#loadmsg');
   const load = urls => new Promise(res => { let i = 0; (function next() { if (i >= urls.length) return res(false); const s = document.createElement('script'); s.src = urls[i++]; s.onload = () => res(true); s.onerror = () => { s.remove(); next(); }; document.head.append(s); })(); });
   bar.style.width = '15%';
   const t = load(['https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js', 'https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js', 'https://unpkg.com/three@0.128.0/build/three.min.js']).then(ok => { bar.style.width = '60%'; return ok; });
